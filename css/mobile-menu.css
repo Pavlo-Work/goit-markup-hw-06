@@ -1,9 +1,14 @@
+.burger-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .burger-menu {
     max-width: 320px;
     max-height: 640px;
     position: fixed;
-    top: -100%; 
-    left: 0;
+    top: 0; 
+    left: auto;
     width: 100%;
     height: 100%;
     display: flex;
@@ -12,7 +17,9 @@
     padding: 72px 16px 40px;
     background-color: #FFFFFF;
     transition: top 250ms ease-in-out;
-    background-color: burlywood;
+    z-index: 999;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+            0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 .burger-menu.is-open {
     top: 0;
