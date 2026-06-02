@@ -25,7 +25,7 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #ffffff;
-    max-width: 496px;
+    max-width: 216px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -66,6 +66,7 @@
             url(../images/hero-bg-t.jpg);
     }
     .page-title {
+        max-width: 496px;
         font-size: 56px;
         line-height: 1.07;
     }

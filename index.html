@@ -46,8 +46,10 @@
 
         <!-- #region Hero -->
         <section id="hero" class="hero">
+            <div class="container">
                 <h1 class="page-title">Effective Solutions for Your Business</h1>
                 <button class="service-button" type="button">Order Service</button>
+            </div>
         </section>
         <!-- #endregion Hero -->
 
@@ -108,7 +110,7 @@
 
         <!-- #region Team -->
         <section id="team" class="team">
-            <div class="container">
+            <div class="container team-box">
                 <h2 class="section-title">Our Team</h2>
                 <ul class="teamlist">
                     <li class="teamlist-item">
@@ -418,7 +420,7 @@
 
     <!-- #region Footer -->
     <footer id="footer" class="footer">
-        <div class="footer-box">
+        <div class="container footer-box">
             <div class="footer-container">
                 <a class="logo foot-logo" href="./index.html"><span class="logo-color">WEB</span>STUDIO</a>
                 <p class="footer-text">
@@ -480,7 +482,7 @@
     <!-- #endregion Footer -->
 
     <!-- #region Burger-menu -->
-     <div class="burger-container">
+     <div id="mobile-menu" class="burger-container">
          <div class="burger-menu">
             <button class="close-button" type="button">
                 <svg width="8" height="8" class="close-btn-icon">
@@ -585,11 +587,11 @@
                                 <use href="./images/icons.svg#icon-check"></use>
                             </svg>
                         </span>
-                        <div class="checkbox-text">
-                            I accept the terms and conditions of the
-                            <a href="" class="checkbox-link">Privacy Policy</a>
-                        </div>
                     </label>
+                    <p class="checkbox-text">
+                        I accept the terms and conditions of the
+                        <a href="" class="checkbox-link">Privacy Policy</a>
+                    </p>
                 </div>
                 <button type="submit" class="submit-btn">Send</button>
             </form>

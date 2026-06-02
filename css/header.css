@@ -34,7 +34,7 @@
 .contact {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.67;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #434455;
     font-style: normal;
@@ -43,6 +43,7 @@
 .contact-list {
     display: flex;
     flex-direction: column;
+    row-gap: 12px;
 }
 .nav-active-link {
     display: block;
