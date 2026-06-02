@@ -2,12 +2,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 250ms ease-in-out;
+    visibility: hidden;
+    }
+    
+.burger-container.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
 }
+
 .burger-menu {
     max-width: 320px;
     max-height: 640px;
     position: fixed;
-    top: -100%; 
     left: auto;
     width: 100%;
     height: 100%;
@@ -21,9 +38,6 @@
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
             0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
-.burger-menu.is-open {
-    top: 0;
-}
 .burger-menu-nav {
     font-weight: 700;
     font-size: 36px;
@@ -34,6 +48,8 @@
     row-gap: 40px;
 }
 .burger-contact-list {
+    color: #434455;
+    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
