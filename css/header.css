@@ -1,6 +1,7 @@
 .head-box {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .head-logo {
     padding: 16px 0;
@@ -11,13 +12,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    display: none;
 }
 .page-navigation {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    display: none;
 }
 .nav-item {
     display: flex;
@@ -38,7 +39,6 @@
     letter-spacing: 0.04em;
     color: #434455;
     font-style: normal;
-    display: none;
 }
 .contact-list {
     display: flex;
@@ -83,10 +83,7 @@
     height: 24px;
 }
 @media screen and (min-width: 768px) {
-    .page-navigation {
-        display: flex;
-    }
-    .contact {
+    .header-main-links {
         display: flex;
     }
     .head-box {

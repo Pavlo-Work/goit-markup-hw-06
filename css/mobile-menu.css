@@ -23,7 +23,7 @@
 
 .burger-menu {
     max-width: 320px;
-    max-height: 640px;
+    height: 100%;
     position: fixed;
     left: auto;
     width: 100%;
@@ -59,8 +59,11 @@
     row-gap: 24px;
     margin-bottom: 48px;
 }
+.burger-acent{
+    color: #4D5AE5;
+}
 @media screen and (min-width: 768px) {
-    .burger-menu {
+    .burger-container {
         display: none;
     }
 }

@@ -75,7 +75,7 @@
 @media screen and (min-width: 1158px) {
     .portfolio {
         max-width: 1440px;
-        padding: 120px 141px;
+        padding: 120px 0;
     }
     .portfolio-list {
         row-gap: 48px;
