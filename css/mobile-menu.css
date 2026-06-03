@@ -47,9 +47,11 @@
     flex-direction: column;
     row-gap: 40px;
 }
+.burger-menu-address {
+    font-style: normal;
+}
 .burger-contact-list {
     color: #434455;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
