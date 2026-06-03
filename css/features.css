@@ -58,6 +58,9 @@
         width: calc((100% - 24px) / 2);
         align-items: start;
     }
+    .features-title {
+        text-align: left;
+    }
 }
 @media screen and (min-width: 1158px) {
     .features {
@@ -66,6 +69,9 @@
     .features .container {
         padding-top: 120px;
         padding-bottom: 120px;
+    }
+    .features-item {
+        width: calc((100% - 72px) / 4);
     }
     .icon-container {
         display: flex;

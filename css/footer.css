@@ -199,6 +199,9 @@
         row-gap: 0;
         gap: 0;
     }
+    .footer-box {
+        justify-content: space-between;
+    }
     .footer-container {
         margin-right: 120px;
     }
